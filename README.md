@@ -47,7 +47,7 @@ plt.show()
 
 Developed by : SWETHA S
 Register Number :212225040451
-/*
+*/
 ```
 ## Output:
 <img width="885" height="661" alt="Screenshot 2026-04-25 113928" src="https://github.com/user-attachments/assets/9f66f446-7ab3-43e8-af22-ce0fe20e78d3" />
