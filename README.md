@@ -16,27 +16,28 @@ To implement univariate Linear Regression to fit a straight line using least squ
 ## Program
 ```
 /*Program to implement the simple linear regression model for predicting the marks scored.
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Sample dataset (Univariate)
+#Sample dataset (Univariate)
 x = np.array([1, 2, 3, 4, 5])     # Input feature
 y = np.array([2, 4, 5, 4, 5])     # Target values
 
-# Number of observations
+#Number of observations
 n = len(x)
 
-# Calculate slope (m) and intercept (c)
+#Calculate slope (m) and intercept (c)
 m = (n * np.sum(x * y) - np.sum(x) * np.sum(y)) / (n * np.sum(x ** 2) - (np.sum(x)) ** 2)
 c = (np.sum(y) - m * np.sum(x)) / n
 
 print(f"Slope (m): {m}")
 print(f"Intercept (c): {c}")
 
-# Predict y values
+#Predict y values
 y_pred = m * x + c
 
-# Plot the data points and regression line
+#Plot the data points and regression line
 plt.scatter(x, y, color='blue', label='Actual data')
 plt.plot(x, y_pred, color='red', label='Fitted line')
 plt.xlabel('X')
@@ -51,7 +52,7 @@ Register Number :212225040451
 ```
 ## Output:
 
-C:\Users\acer\Pictures\Screenshots\Screenshot 2026-04-25 113928.png
+![alt text](<Screenshot 2026-04-25 113928.png>)
 
 
 ## Result:
